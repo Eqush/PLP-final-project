@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Church Records Management</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Church Records Management</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="login">
+        <h2>Login</h2>
+        <form>
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" required>
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+            <button type="submit">Login</button>
+            <p><a href="#forgot-password">Forgot Password?</a></p>
+        </form>
+    </section>
+    
+    <section id="forgot-password">
+        <h2>Forgot Password</h2>
+        <form>
+            <label for="email">Enter your email:</label>
+            <input type="email" id="email" name="email" required>
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+    
+    <section id="select-church">
+        <h2>Select Church Location</h2>
+        <form>
+            <label for="church-location">Church Location:</label>
+            <select id="church-location" name="church-location" required>
+                <option value="nairobi">Nairobi</option>
+                <option value="mombasa">Mombasa</option>
+                <option value="kisumu">Kisumu</option>
+                <option value="nakuru">Nakuru</option>
+                <option value="eldoret">Eldoret</option>
+            </select>
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+    
+    <section id="about">
+        <h2>About Us</h2>
+        <p>Our Church Records Management System is designed to streamline and digitize the record-keeping process for churches, ensuring accuracy and accessibility.</p>
+    </section>
+    
+    <section id="services">
+        <h2>Our Services</h2>
+        <ul>
+            <li>Fundraising Management</li>
+            <li>Baptism Records</li>
+            <li>Wedding Ceremonies</li>
+            <li>Sacrament Confirmations</li>
+            <li>Priest Ordinations</li>
+            <li>Burial Ceremonies</li>
+        </ul>
+    </section>
+    
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+    
+    <footer>
+        <p>&copy; 2024 Church Records Management. All rights reserved.</p>
+    </footer>
+</body>
+</html>
